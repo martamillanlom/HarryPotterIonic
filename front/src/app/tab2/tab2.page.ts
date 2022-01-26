@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  casaH;
+
   constructor() {}
+
+  filterHouse(){
+    console.log(this.casaH);
+  }
 
 }
