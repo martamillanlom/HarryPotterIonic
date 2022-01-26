@@ -6,10 +6,16 @@
     header('Content-Length:0');
     header('Content-Type: text/plain');
 
-    $host = "localhost";
-    $user = "root";
-    $password = "";
-    $db = "harrypotter";
+    $host = "hl765.dinaserver.com";
+    $user = "wp-db961b7704907";
+    $password = "tjU2tXvo";
+    $db = "wp_db961b77049075b3";
 
     $con = mysqli_connect($host, $user, $password, $db) or die ("could not connect to DB");
+
+    if($con){
+        echo "ok";
+    }else{
+        echo "ko";
+    }
 ?>
